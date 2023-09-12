@@ -1,0 +1,11 @@
+.list {
+    list-style-type: disc;
+}
+
+.text {
+    margin-bottom: 1em;
+}
+
+.answerContainer { 
+    margin-bottom: 3em;
+}
