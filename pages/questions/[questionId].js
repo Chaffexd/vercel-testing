@@ -34,6 +34,7 @@ export async function getStaticProps(context) {
     props: {
       selectedQuestion,
     },
+    revalidate: 1800
   };
 }
 
