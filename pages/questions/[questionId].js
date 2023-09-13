@@ -12,7 +12,14 @@ const QuestionPage = ({ selectedQuestion }) => {
         <meta name="description" content={selectedQuestion.question} />
       </Head>
       <Title question={selectedQuestion.question} />
-      <Answer text={selectedQuestion.answer} list={selectedQuestion.list} />
+      <Answer
+        text={selectedQuestion.answer}
+        list={selectedQuestion.list}
+        frustratedPoint={selectedQuestion.frustratedPoint}
+        scenarios={selectedQuestion.scenarios}
+        answer={selectedQuestion.answer}
+        article={selectedQuestion.article}
+      />
       <Button text={"Take me back"} link={"/"} />
     </>
   );

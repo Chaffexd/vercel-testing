@@ -1,0 +1,8 @@
+{
+    "redirects": [
+      {
+        "source": "/redirects",
+        "destination": "https://vercel.com/docs/projects/project-configuration#redirects-examples"
+      }
+    ]
+  }

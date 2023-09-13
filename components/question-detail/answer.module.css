@@ -6,6 +6,18 @@
     margin-bottom: 1em;
 }
 
-.answerContainer { 
+.answerContainer, .answer { 
     margin-bottom: 3em;
+}
+
+.frustration {
+    font-size: 1.3em;
+}
+
+.scenarios {
+    font-size: 1.2em;
+}
+
+.scenarios, .frustration {
+    margin-bottom: 1em;
 }
