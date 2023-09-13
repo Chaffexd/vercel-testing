@@ -4,22 +4,5 @@
         "source": "/redirects",
         "destination": "https://vercel.com/docs/projects/project-configuration#redirects-examples"
       }
-    ],
-    "headers": [
-      {
-        "source": "/",
-        "has": [
-          {
-            "type": "host",
-            "value": "https://vercel-testing-wine.vercel.app/"
-          }
-        ],
-        "headers" : [
-          {
-            "key" : "X-Robots-Tag",
-            "value" : "noindex"
-          }
-        ]
-      }
     ]
 }
