@@ -3,22 +3,19 @@ const nextConfig = {
   reactStrictMode: true,
 };
 
-module.exports = nextConfig;
-
 module.exports = {
+  ...nextConfig,
   async headers() {
-    const headers = [];
-    if (process.env.NEXT_PUBLIC_VERCEL_ENV === "preview") {
-      headers.push({
+    return [
+      {
+        source: "/:path*", // This pattern matches all routes
         headers: [
           {
             key: "X-Robots-Tag",
             value: "noindex",
           },
         ],
-        source: "/:path*",
-      });
-    }
-    return headers;
+      },
+    ];
   },
 };
