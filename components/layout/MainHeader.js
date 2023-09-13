@@ -9,7 +9,7 @@ const MainHeader = () => {
       <ul className={classes.navContainer}>
         {takehomeQuestions.map((question) => (
           <li key={question.id} className={classes.questions}>
-            <Link href={`/questions/${question.id.replace(/ /g, "-").toLowerCase()}`}>{question.title}</Link>
+            <Link className={classes.questionsLink} href={`/questions/${question.id.replace(/ /g, "-").toLowerCase()}`}>{question.title}</Link>
           </li>
         ))}
       </ul>

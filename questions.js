@@ -29,7 +29,7 @@ export const takehomeQuestions = [
       {
         id: "p5",
         point:
-          "Continue taking steps into a Senior position and eventually into Management",
+          "Continue taking steps into a Senior position and eventually into Management. I do my best to embody the behaviour of a Senior now as I have been in support for some time now.",
       },
       { id: "p6", point: "Be the best version of myself and help where I can" },
     ],
@@ -76,7 +76,7 @@ export const takehomeQuestions = [
         id: 's1',
         scenario:
           "A customer has a project on Vercel and they want to redirect the /blog path to another website. Please write a reply to the customer. Separately, list any relevant documentation you found and any feedback or information you’d like to share about your decision making process.",
-        answer: "Dear { Customer }, thanks for reaching out! To achieve your desired outcome on Vercel, you could adjust your vercel.json file to handle this behaviour for you. This would allow you to override the default behaviour of Vercel from within your project. The vercel.json file would take an object with the key: 'redirects' that holds an array for a path, example: { 'source': '/blog', destination: 'https://hello.com/newblog', 'permanent': true }. If you have any questions on this or would like to share an example of your setup, please do so and I'll do my best to support you where I can. Please look at these options outlined in this article here for more information: ",
+        answer: "Dear { Customer }, thanks for reaching out! To achieve your desired outcome on Vercel, you could adjust your vercel.json (you can test this on this site by going to the path /redirects) file to handle this behaviour for you. This would allow you to override the default behaviour of Vercel from within your project. The vercel.json file would take an object with the key: 'redirects' that holds an array for a path, example: { 'source': '/blog', destination: 'https://hello.com/newblog', 'permanent': true }. If you have any questions on this or would like to share an example of your setup, please do so and I'll do my best to support you where I can. Please look at these options outlined in this article here for more information: ",
         article: "https://vercel.com/docs/projects/project-configuration#redirects-examples"
       },
       {
